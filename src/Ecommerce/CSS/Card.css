@@ -1,0 +1,31 @@
+.CardsBody{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card{
+    height: auto;
+    width: 350px;
+    align-items: center;
+    justify-content: space-around;
+    background : linear-gradient(rgb(245, 100, 100),white);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-radius: 20px;
+}
+
+button{
+    margin: 5px;
+    color: black;
+    background: rgb(212, 211, 211);
+    height: 25px;
+    border-radius: 20px;
+}

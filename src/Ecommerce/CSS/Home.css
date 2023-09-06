@@ -1,0 +1,9 @@
+.Home{
+    margin-top: 10px;
+    background:radial-gradient(silver,black);
+}
+.Sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

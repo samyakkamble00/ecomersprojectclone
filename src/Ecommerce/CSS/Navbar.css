@@ -1,0 +1,28 @@
+.Navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background: black;
+    color: white;
+    height: 60px;
+}
+
+nav div:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+
+input{
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .Navbar{
+        height: auto;
+    }
+    
+    nav div{
+        margin: 10px;
+    }
+}
